@@ -5,11 +5,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="w3.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 .w3-bar-block .w3-bar-item {padding:20px}
 </style>
 <body>
+  <div class="s-header__logo">
+    <a href="index.html" class="s-header__logo-link">
+        <img class="s-header__logo-img s-header__logo-img-default" src="............." alt="">
+        <img class="s-header__logo-img s-header__logo-img-shrink" src="..........." alt="">
+        <img class="s-header__logo-img s-header__logo-img-smaller" src="......" alt="">
+    </a>
+    <ul class="list-inline s-header__nav-menu">
+        <!-- Logo and menu <li class=""><a class="s-header__nav-menu-link s-header__nav-menu-link-divider s-hide-menu-links" href="index.html">home.</a></li>    -->
+        <!-- Logo and menu <li class=""><a class="s-header__nav-menu-link s-header__nav-menu-link-divider s-hide-menu-links" href="news.html">news.</a></li>     -->
+        <li class=""><a class="s-header__nav-menu-link s-header__nav-menu-link-divider s-hide-menu-links" href="contact.html">contact</a></li>
+        <a class="s-header__nav-menu-link s-hide-menu-button" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars fa-lg"></i></a>
+    </ul>
+
+    <div id="navDemo" class="s-nav-block s-hide-mobile-menu s-header__nav-menu">
+        <a class="s-nav-block-style" href="index.html">home.</a>
+        <a class="s-nav-block-style" href="">news.</a>
+        <a class="s-nav-block-style" href="contact.html">contact.</a>
+    </div>
+
+</div>
+
+
+<img class="s-header__logo-img s-header__logo-img-shrink" src="images\logo\pandasamuraiv3.svg" alt="">
 
 <!-- Sidebar (hidden by default) -->
 <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
